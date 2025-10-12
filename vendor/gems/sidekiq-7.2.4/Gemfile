@@ -4,11 +4,11 @@ gemspec
 
 gem "rake"
 RAILS_VERSION = "~> 7.1"
-gem "actionmailer", RAILS_VERSION
-gem "actionpack", RAILS_VERSION
+gem "actionmailer", ">= 7.2.1", RAILS_VERSION
+gem "actionpack", ">= 7.2.1", RAILS_VERSION
 gem "activejob", RAILS_VERSION
 gem "activerecord", RAILS_VERSION
-gem "railties", RAILS_VERSION
+gem "railties", ">= 7.2.1", RAILS_VERSION
 gem "redis-client"
 # gem "bumbler"
 # gem "debug"
