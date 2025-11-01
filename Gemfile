@@ -742,7 +742,7 @@ gem "nkf", "~> 0.2.0", feature_category: :shared
 # This is locked to 0.6.0 because we patch Net::HTTP#connect in
 # gems/gitlab-http/lib/net_http/connect_patch.rb.
 # It can be upgraded but care must be taken to preserve the patch.
-gem 'net-http', '= 0.6.0', feature_category: :shared
+gem 'net-http', '= 0.7.0', feature_category: :shared
 # This is locked to 0.13.0 because the default parser changes from RFC2396 to RFC3986,
 # which can be removed after Rails 7.2 upgrade
 # See https://gitlab.com/gitlab-org/gitlab/-/merge_requests/173142#note_2277952450
