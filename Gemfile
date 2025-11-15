@@ -166,7 +166,7 @@ gem 'rack-cors', '~> 2.0.1', require: 'rack/cors', feature_category: :shared
 # GraphQL API
 gem 'graphql', '~> 2.4.1', feature_category: :api
 gem 'graphql-docs', '~> 5.0.0', group: [:development, :test], feature_category: :api
-gem 'apollo_upload_server', '~> 2.1.6', feature_category: :api
+gem 'apollo_upload_server', '~> 2.1.7', feature_category: :api
 gem 'graphlient', '~> 0.8.0', feature_category: :importers # Used by BulkImport feature (group::import)
 
 # Cells
@@ -728,7 +728,7 @@ gem 'arr-pm', '~> 0.0.12', feature_category: :package_registry
 gem 'devfile', '~> 0.1.1', feature_category: :workspaces
 
 # Apple plist parsing
-gem 'CFPropertyList', '~> 3.0.0', feature_category: :mobile_devops
+gem 'CFPropertyList', '~> 3.0.8', feature_category: :mobile_devops
 gem 'app_store_connect', feature_category: :mobile_devops
 
 # For phone verification
