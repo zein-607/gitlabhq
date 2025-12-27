@@ -351,7 +351,7 @@ gem 'ruby-fogbugz', '~> 0.3.0', feature_category: :importers
 gem 'kubeclient', '~> 4.11.0', feature_category: :shared
 
 # AI
-gem 'ruby-openai', '~> 3.7', feature_category: :ai_abstraction_layer
+gem 'ruby-openai', '~> 4.0', '>= 4.0.0', feature_category: :ai_abstraction_layer
 gem 'circuitbox', '2.0.0', feature_category: :ai_abstraction_layer
 
 # Sanitize user input
